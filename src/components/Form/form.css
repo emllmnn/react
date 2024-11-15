@@ -1,0 +1,42 @@
+.form{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+  }
+  
+  .form input[type="text"] {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 20px;
+    border: 1px solid #E6E6FA;
+    min-width: 80%;
+    border-radius: 10px;
+    border-width: 2px;
+    background: #E6E6FA;
+  }
+  
+  .form button[type="submit"]{
+    border: none;
+    height: 40px;
+    width: 40px;
+    background: #DDA0DD;
+    color: #E6E6FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 600ms;
+  }
+  
+  .form button:hover{
+    background: #483D8B;
+  }
+  
+  .concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }

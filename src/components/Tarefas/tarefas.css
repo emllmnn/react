@@ -1,0 +1,60 @@
+.tarefas {
+    margin-top: 30px;
+  }
+  
+  .tarefas li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    transition: all 600ms;
+  }
+  
+  .tarefas li:hover{
+    background: #DDA0DD;
+    border-radius: 10px;
+  }
+  
+  .tarefas li .edit {
+    margin-right: 15px;
+    color: #483D8B;
+  }
+  
+  .tarefas li .delete {
+    margin-right: 15px;
+    color: #483D8B;
+  }
+
+  .tarefas li .done {
+    margin-right: 15px;
+    color: #483D8B;
+  }
+  
+  .tarefas li:hover .edit,
+  .tarefas li:hover .delete,
+  .tarefas li:hover .done{
+    color: #E6E6FA;
+  }
+  
+  .tarefas li .edit,
+  .tarefas li .delete,
+  .tarefas li .done{
+    cursor:pointer;
+    transition: all 600ms;
+  }
+  
+  .tarefas li div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .riscado {
+    text-decoration: line-through;
+}
